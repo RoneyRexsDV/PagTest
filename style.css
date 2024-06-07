@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-image:url(imagens/imagem\ de\ fundo.jpg);
+    background-repeat: no-repeat;
+    font-family:Roboto Mono;
+    color: white;
+}
+.cabecalho-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 65rem;
+    background-color:#1f1f50;
+}
+.img-logo{
+    max-width:20%;
+}
+.btn{
+    width: 4%;
+    background:transparent;
+    color:white;
+    border-radius: 10%;
+    border-color:white;
+    text-decoration: solid;
+}
+
+main{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin:7% 7%; 
+}
+section{
+ width: 500px;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+
+}
+h1{
+    font-size:100px;
+
+}
+p{
+    font-size: 20px;
+}
+
+strong{
+    color:#3f3f78;
+    
+}
+footer{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size:.4rem;
+    margin:3rem;
+}
